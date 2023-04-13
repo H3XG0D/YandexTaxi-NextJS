@@ -13,7 +13,7 @@ const Layout: React.FC<ILayout> = ({ children, title }) => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   useEffect(() => {
-    setIsLoading(true);
+    // setIsLoading(true);
 
     const timeout = setTimeout(() => {
       setIsLoading(false);
