@@ -1,9 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
   env: {
-    MAP_KEY: "AIzaSyAm8TU3QSe_5rYPUcan5fwNdXlOJ2S0bX",
-  },
-};
-
-module.exports = nextConfig;
+    MAP_KEY: 'AIzaSyAIDOxdYKuDQSm0M4fqHcqog0fItZe-MOo'
+  }
+}
